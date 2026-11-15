@@ -20,6 +20,45 @@
 
 </div>
 
+
+---
+
+### 4. `4.-autoclip_mvp-main.zip` Sathi `README.md`
+
+```markdown
+<div align="center">
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,28&height=200&section=header&text=AutoClip%20AI%20Pipeline&fontSize=42&fontAlignY=35&animation=blinking&fontColor=ffffff" width="100%" />
+
+  <h3>🤖 End-to-End AI Video Highlight Extraction, Subtitle & Publishing Pipeline</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/LLM_Powered-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/Whisper_ASR-FF6F00?style=for-the-badge&logo=audio&logoColor=white" />
+    <img src="https://img.shields.io/badge/Auto_Publish-E91E63?style=for-the-badge&logo=youtube&logoColor=white" />
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/github/stars/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
+    <img src="https://img.shields.io/github/forks/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
+    <img src="https://img.shields.io/badge/Pipeline-Zero--Touch_Automation-success?style=flat-square" />
+  </p>
+
+</div>
+
+---
+
+## ✨ About AutoClip AI Pipeline
+
+**AutoClip MVP** is an end-to-end automated content repurposing system that ingests long-form videos, transcribes speech using AI, identifies viral hooks using Large Language Models, cuts high-impact clips, and prepares them for social media publishing.
+
+### 🧠 Workflow Architecture
+```text
+[Raw Long Video] ──▶ [AI Speech-to-Text] ──▶ [LLM Viral Hook Scoring] ──▶ [Auto Cut & Captions] ──▶ [Social Upload]
+
+
+
 > 🚨 **Notice / Project Archive**
 >
 > This repository (`autoclip_mvp`) is the early MVP edition preserved for development and self-hosting workflows.  
@@ -102,41 +141,3 @@ cp env.example .env
 
 # 3. Run one-click deployment
 ./docker-deploy.sh
-
-
----
-
-### 4. `4.-autoclip_mvp-main.zip` Sathi `README.md`
-
-```markdown
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,28&height=200&section=header&text=AutoClip%20AI%20Pipeline&fontSize=42&fontAlignY=35&animation=blinking&fontColor=ffffff" width="100%" />
-
-  <h3>🤖 End-to-End AI Video Highlight Extraction, Subtitle & Publishing Pipeline</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/LLM_Powered-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/Whisper_ASR-FF6F00?style=for-the-badge&logo=audio&logoColor=white" />
-    <img src="https://img.shields.io/badge/Auto_Publish-E91E63?style=for-the-badge&logo=youtube&logoColor=white" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/github/stars/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
-    <img src="https://img.shields.io/github/forks/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
-    <img src="https://img.shields.io/badge/Pipeline-Zero--Touch_Automation-success?style=flat-square" />
-  </p>
-
-</div>
-
----
-
-## ✨ About AutoClip AI Pipeline
-
-**AutoClip MVP** is an end-to-end automated content repurposing system that ingests long-form videos, transcribes speech using AI, identifies viral hooks using Large Language Models, cuts high-impact clips, and prepares them for social media publishing.
-
-### 🧠 Workflow Architecture
-```text
-[Raw Long Video] ──▶ [AI Speech-to-Text] ──▶ [LLM Viral Hook Scoring] ──▶ [Auto Cut & Captions] ──▶ [Social Upload]
-
