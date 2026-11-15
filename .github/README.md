@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,28&height=200&section=header&text=AutoClip%20AI%20Pipeline&fontSize=42&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,28&height=200&section=header&text=AutoClip%20AI%20Pipeline&fontSize=42&fontAlignY=35&animation=blinking&fontColor=ffffff" width="100%" />
 
   <h3>🎬 AI-Powered Intelligent Video Slicing & Collection Recommendation System</h3>
 
@@ -9,108 +9,66 @@
     <img src="https://img.shields.io/badge/React-TypeScript-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
     <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
     <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
   </p>
 
   <p>
     <img src="https://img.shields.io/github/stars/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
     <img src="https://img.shields.io/github/forks/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
-    <img src="https://img.shields.io/badge/AI_Models-Qwen_%2B_SiliconFlow-8A2BE2?style=flat-square" />
-  </p>
-
-</div>
-
-
----
-
-### 4. `4.-autoclip_mvp-main.zip` Sathi `README.md`
-
-```markdown
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,28&height=200&section=header&text=AutoClip%20AI%20Pipeline&fontSize=42&fontAlignY=35&animation=blinking&fontColor=ffffff" width="100%" />
-
-  <h3>🤖 End-to-End AI Video Highlight Extraction, Subtitle & Publishing Pipeline</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/LLM_Powered-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/Whisper_ASR-FF6F00?style=for-the-badge&logo=audio&logoColor=white" />
-    <img src="https://img.shields.io/badge/Auto_Publish-E91E63?style=for-the-badge&logo=youtube&logoColor=white" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/github/stars/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
-    <img src="https://img.shields.io/github/forks/heyaniket065/4.-autoclip_mvp-main.zip?style=social" />
-    <img src="https://img.shields.io/badge/Pipeline-Zero--Touch_Automation-success?style=flat-square" />
+    <img src="https://img.shields.io/badge/Maintained%20by-Aniket%20Bhalerao-blueviolet?style=flat-square" />
   </p>
 
 </div>
 
 ---
 
-## ✨ About AutoClip AI Pipeline
+## 📖 Overview
 
-**AutoClip MVP** is an end-to-end automated content repurposing system that ingests long-form videos, transcribes speech using AI, identifies viral hooks using Large Language Models, cuts high-impact clips, and prepares them for social media publishing.
-
-### 🧠 Workflow Architecture
-```text
-[Raw Long Video] ──▶ [AI Speech-to-Text] ──▶ [LLM Viral Hook Scoring] ──▶ [Auto Cut & Captions] ──▶ [Social Upload]
-
-
-
-> 🚨 **Notice / Project Archive**
->
-> This repository (`autoclip_mvp`) is the early MVP edition preserved for development and self-hosting workflows.  
-> Upstream repository reference: **[autoclip](https://github.com/zhouxiaoka/autoclip)**
+**AutoClip** is an end-to-end AI-driven video slicing and collection recommendation platform. It supports automated video downloading, subtitle extraction, LLM-powered highlight scoring, smart video clipping, and automated compilation generation with a modern web interface.
 
 ---
-
-# AutoClip - Intelligent Video Clipping Tool
-
-🎬 An AI-based intelligent video slicing and collection recommendation system supporting automated Bilibili video downloading, subtitle extraction, smart AI clipping, and highlight collection generation.
 
 ## 📋 Version Changelog
 
 ### v1.1.1 (2025-08-17)
-- 🐳 **One-Click Docker Deployment**: Containerized deployment support to simplify environment setup
-- 🚀 **Multi-Stage Builds**: Optimized Docker image size for faster build times
-- 🔧 **Production Environment Support**: Production-ready Docker configurations and deployment scripts
-- 📦 **Data Persistence**: Data volume mounting support to ensure media and project safety
-- 🛡️ **Health Checks**: Integrated container health checks for higher service reliability
-- 📚 **Deployment Documentation**: Comprehensive Docker deployment guide and quick-start documentation
+- 🐳 **One-Click Docker Deployment**: Containerized deployment support to simplify environment setup.
+- 🚀 **Multi-Stage Builds**: Optimized Docker image size for faster builds.
+- 🔧 **Production Support**: Production-ready Docker configurations and deployment scripts.
+- 📦 **Data Persistence**: Volume mounting support to keep processed clips and data safe.
+- 🛡️ **Health Checks**: Integrated container health checks for improved service reliability.
+- 📚 **Deployment Docs**: Comprehensive Docker deployment guide and quick-start documentation.
 
 ### v1.1.0 (2025-08-03)
-- ✨ **SiliconFlow API Support**: Added SiliconFlow as an AI service provider
-- 🔧 **Multi-API Provider Support**: Supports both Alibaba Qwen (DashScope) and SiliconFlow AI services
-- 🎯 **Smart API Selection**: Automatically selects the configured AI provider dynamically
-- 📝 **Configuration Optimization**: Added flexible API provider switching options
-- 🐛 **Bug Fixes**: Fixed API connection testing issues
+- ✨ **SiliconFlow API Support**: Added support for SiliconFlow as an AI model provider.
+- 🔧 **Multi-API Provider Support**: Switch seamlessly between DashScope (Qwen) and SiliconFlow.
+- 🎯 **Smart API Selection**: Automatically routes requests to the configured AI provider.
+- 📝 **Configuration Optimization**: Added dynamic API provider switching options.
+- 🐛 **Bug Fixes**: Resolved API connection testing issues.
 
 ### v1.0.0 (2025-07)
-- 🎉 **Initial Release**: Complete intelligent video slicing system
-- 🔥 **Core Features**: AI video content analysis, smart clipping, and collection recommendations
-- 📺 **Bilibili Integration**: Automated Bilibili video and subtitle downloading
-- 🎨 **Web Interface**: Modern React + Ant Design frontend dashboard
-- ⚡ **Real-Time Processing**: Live progress tracking and processing logs
+- 🎉 **Initial Release**: Complete AI-powered video slicing pipeline.
+- 🔥 **Core Features**: AI video content analysis, smart clipping, and collection clustering.
+- 📺 **Video & Subtitle Downloader**: Automated video and SRT subtitle extraction.
+- 🎨 **Web Dashboard**: Modern React + TypeScript + Ant Design frontend.
+- ⚡ **Real-Time Processing**: Live progress tracking and processing logs.
 
 ---
 
 ## ✨ Key Features
 
-- 🔥 **Smart AI Video Slicing**: Analyzes video transcripts using AI to automatically generate high-retention clips
-- 📺 **Bilibili Video Downloader**: Built-in automated video and subtitle extraction from Bilibili links
-- 🎯 **Smart Collection Recommendations**: AI analyzes clip topics and groups related clips into thematic collections
-- 🎨 **Manual Collection Editor**: Drag-and-drop sorting, adding, or removing clips inside collections
-- 📦 **One-Click Batch Export**: Package and download all generated clips and collections as a single ZIP archive
-- 🌐 **Modern Web UI**: Built with React, TypeScript, and Ant Design
-- ⚡ **Live Status & Logs**: Real-time pipeline execution status and detailed logs
+- 🔥 **Intelligent Video Slicing**: Analyzes video transcripts with AI to extract high-retention clips automatically.
+- 📺 **Automated Video & Subtitle Fetching**: Supports direct video download and subtitle extraction.
+- 🎯 **Smart Collection Recommendations**: AI clusters related clips into thematic compilations.
+- 🎨 **Manual Collection Editor**: Drag-and-drop clip reordering, plus adding or removing clips manually.
+- 📦 **One-Click Batch Export**: Package and download all generated clips and collections in a single ZIP archive.
+- 🌐 **Modern Web UI**: Built with React, TypeScript, and Ant Design.
+- ⚡ **Live Status & Logs**: Real-time pipeline progress and execution monitoring.
 
 ---
 
 ## 🚀 Quick Start
 
-### System Requirements
+### Prerequisites
 
 #### Development Environment
 - Python 3.8+
@@ -126,9 +84,9 @@
 
 ### Installation Steps
 
-#### 🐳 Docker Deployment (Recommended)
+#### 🐳 Option 1: Docker Deployment (Recommended)
 
-**One-click deployment without complex environment setup:**
+Deploy in minutes without manual dependency configuration:
 
 ```bash
 # 1. Clone the repository
@@ -137,7 +95,7 @@ cd 4.-autoclip_mvp-main.zip
 
 # 2. Configure environment variables
 cp env.example .env
-# Edit .env and add your AI API key
+# Edit .env and add your AI API keys
 
 # 3. Run one-click deployment
 ./docker-deploy.sh
